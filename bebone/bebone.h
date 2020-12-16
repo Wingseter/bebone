@@ -24,4 +24,5 @@ private:
 
 public slots:
     void refreshButtonClicked();
+    void beboneTableClicked(const QModelIndex &index);
 };

@@ -14,11 +14,12 @@ bebone::bebone(QWidget *parent)
     db.setPassword(pw);
     connected = db.open();
 
+    // 연결 성공
     if (connected) {
         refresh();
     }
     connect(ui.refreshButton, SIGNAL(clicked()), this, SLOT(refreshButtonClicked()));
-
+    connect(ui.beboneTable, SIGNAL(clicked(const QModelIndex &)), this, SLOT(beboneTableClicked(const QModelIndex &)));
 }
 
 void bebone::refresh()
@@ -28,6 +29,14 @@ void bebone::refresh()
 
     ui.beboneTable->setModel(model);
     ui.beboneTable->show();
+}
+
+void bebone::beboneTableClicked(const QModelIndex& index)
+{
+    if (index.isValid()) {
+        QString cellText = index.data().toString();
+        ui.name->setText(cellText);
+    }
 }
 
 void bebone::refreshButtonClicked()
