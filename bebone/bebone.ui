@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>954</width>
+    <width>864</width>
     <height>424</height>
    </rect>
   </property>
@@ -37,76 +37,86 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="beboneButton">
+   <widget class="QPushButton" name="searchButton">
     <property name="geometry">
      <rect>
-      <x>780</x>
-      <y>320</y>
+      <x>740</x>
+      <y>300</y>
       <width>93</width>
       <height>28</height>
      </rect>
     </property>
     <property name="text">
-     <string>BeBorn!</string>
+     <string>search</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="idInput">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>270</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>740</x>
-      <y>170</y>
+      <y>240</y>
       <width>64</width>
       <height>15</height>
      </rect>
     </property>
     <property name="text">
-     <string>이름</string>
+     <string>ID 입력</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>200</y>
+      <x>720</x>
+      <y>80</y>
       <width>64</width>
       <height>15</height>
      </rect>
     </property>
     <property name="text">
-     <string>주소</string>
+     <string>이름:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>230</y>
+      <x>720</x>
+      <y>100</y>
       <width>64</width>
       <height>15</height>
      </rect>
     </property>
     <property name="text">
-     <string>이메일</string>
+     <string>주소:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>260</y>
+      <x>720</x>
+      <y>120</y>
       <width>64</width>
       <height>15</height>
      </rect>
     </property>
     <property name="text">
-     <string>경과일</string>
+     <string>이메일:</string>
     </property>
    </widget>
    <widget class="QLabel" name="name">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>170</y>
+      <x>770</x>
+      <y>80</y>
       <width>64</width>
       <height>15</height>
      </rect>
@@ -118,8 +128,8 @@
    <widget class="QLabel" name="address">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>200</y>
+      <x>770</x>
+      <y>100</y>
       <width>64</width>
       <height>15</height>
      </rect>
@@ -131,40 +141,14 @@
    <widget class="QLabel" name="email">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>230</y>
-      <width>64</width>
-      <height>15</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="last">
-    <property name="geometry">
-     <rect>
-      <x>800</x>
-      <y>260</y>
-      <width>64</width>
-      <height>15</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>750</x>
+      <x>770</x>
       <y>120</y>
       <width>64</width>
       <height>15</height>
      </rect>
     </property>
     <property name="text">
-     <string>정보</string>
+     <string/>
     </property>
    </widget>
   </widget>
@@ -173,7 +157,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>954</width>
+     <width>864</width>
      <height>26</height>
     </rect>
    </property>
